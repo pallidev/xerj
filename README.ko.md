@@ -72,7 +72,7 @@ Windows 및 수동 검증된 설치는 [수동 설치](#수동-설치)를 참고
 
 ## 커뮤니티 참여
 
-XERJ에는 실행해 보고 짧은 사용 후기를 하나 보내는 것 — 커밋이나 PR 하나 — 으로 참여합니다.
+XERJ에 참여하는 방법은 실행해 보고 짧은 사용 후기를 하나 보내는 것 — 커밋이나 PR 하나 — 입니다.
 그 보고서가 회원증이며, 무료 Apache-2.0 바이너리에 대한 프로젝트의 유일한 대가입니다. 덕분에
 다음 사용자를 위해 엔진이 계속 개선됩니다.
 
@@ -455,7 +455,7 @@ Grok CLI에는 있으며, 그것이 위의 `grok` 행입니다.
 | `xerj_vector_search` | `dense_vector` 필드에 대한 kNN |
 | `xerj_hybrid_search` | 하위 질의들의 RRF 또는 선형 융합 |
 | `xerj_memory_store` / `xerj_memory_recall` | 네임스페이스의 영속적 에이전트 메모리, 텍스트·의미·벡터로 재소환 |
-| `xerj_brain_overview` / `xerj_brain_ego` / `xerj_brain_link` / `xerj_brain_unlink` | 세컨드 브레인 링크 인덱스: 방향 잡기, 한 노드의 근거 기반 이웃 확장, 링크 주장·은퇴 |
+| `xerj_brain_overview` / `xerj_brain_ego` / `xerj_brain_link` / `xerj_brain_unlink` | 세컨드 브레인 링크 인덱스: 방향 잡기, 한 노드의 근거 기반 이웃 확장, 링크 추가·제거 |
 | `xerj_plan` | 일상 언어 필터를 받아 검증된 query DSL 출력 (`POST /_ask`; 결정적이고 규칙 기반, LLM 아님) |
 
 `xerj_search`에서 `{"prefix":"project","query":"retry policy"}`를 넘기면 `project-*`를
